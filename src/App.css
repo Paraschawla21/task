@@ -1,0 +1,53 @@
+
+.container{
+  background-color: gray;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selector{
+  width: 300px;
+  border-radius: 2px;
+  background-color: white;
+  padding: 6px;
+}
+
+.selector:hover{
+  border: 2px black solid;
+}
+
+.text{
+  font-size: smaller;
+}
+.flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.gray{
+  color: rgb(183, 183, 183);
+}
+input{
+  border: none;
+  font-size: small;
+  padding: 10px;
+}
+input:focus{
+  border: none;
+  outline: none;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.drop{
+  position: absolute;
+  background: white;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px ;
+}
